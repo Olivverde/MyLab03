@@ -30,6 +30,15 @@ class MainActivity : AppCompatActivity() {
             putExtra(EXTRA_NAME,name)
         }
         startActivity(intent)
+    }
 
+    /**
+     * Performs city button activity
+     */
+    fun cityButtonActivity (view: View){
+
+        //Creating intent
+        val intent = Intent(this, activityCityButton::class.java)
+        startActivity(intent)
     }
 }

@@ -2,4 +2,7 @@
     <string name="app_name">MyLab03</string>
     <string name="mainPicture">TODO</string>
     <string name="nameInstruction">Input your Name</string>
+    <string name="city">City</string>
+    <string name="flores">Flores</string>
+    <string name="semuc">Semuc</string>
 </resources>
