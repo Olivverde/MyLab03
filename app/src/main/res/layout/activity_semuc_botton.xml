@@ -14,24 +14,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAccent"
-        tools:context=".activityCityButton">
+        tools:context=".activitySemucButton">
 
         <TextView
             android:id="@+id/title"
             style="@style/titleStyle"
+            android:text="@{model.title}"
             app:fontFamily="@font/roboto_black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:textSize="30sp"
-            android:text="@{model.title}"/>
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/phrase"
             style="@style/phraseStyle"
-            android:text="@{model.phrase}"
             app:fontFamily="@font/roboto_medium"
+            android:text="@{model.phrase}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.113"
             app:layout_constraintStart_toStartOf="parent"

@@ -19,4 +19,8 @@ class activityUpperButton : AppCompatActivity() {
             text = name
         }
     }
+
+    fun exitUpperButton(view: TextView){
+        finish()
+    }
 }

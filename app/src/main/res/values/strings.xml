@@ -5,4 +5,9 @@
     <string name="city">City</string>
     <string name="flores">Flores</string>
     <string name="semuc">Semuc</string>
+    <string name="Title" />
+    <string name="PhaseView" />
+    <string name="Description" />
+    <string name="comment">Input comment</string>
+    <string name="commentInstr">Comment</string>
 </resources>
