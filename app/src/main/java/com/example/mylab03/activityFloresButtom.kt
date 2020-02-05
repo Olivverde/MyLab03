@@ -9,7 +9,7 @@ import com.example.mylab03.databinding.*
 import kotlinx.android.synthetic.main.activity_city_button.*
 
 
-class activityFloresButton : AppCompatActivity() {
+class activityFloresButtom : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

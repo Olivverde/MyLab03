@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
     fun semucButtonActivity(view:View){
 
         //Creating intent
-        val intent = Intent(this, activitySemucButton::class.java)
+        val intent = Intent(this, activitySemucBotton::class.java)
         startActivity(intent)
     }
 
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
     fun floresButtonActivity(view: View){
 
         //Creating intent
-        val intent = Intent(this, activityFloresButton::class.java)
+        val intent = Intent(this, activityFloresButtom::class.java)
         startActivity(intent)
     }
 }
