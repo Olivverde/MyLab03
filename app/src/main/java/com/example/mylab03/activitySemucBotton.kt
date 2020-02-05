@@ -16,7 +16,7 @@ class activitySemucButton : AppCompatActivity() {
         setContentView(R.layout.activity_semuc_botton)
 
         //Data binding
-        val binding: ActivityCityButtonBinding =
+        val binding: ActivitySemucBottonBinding =
             DataBindingUtil.setContentView(this, R.layout.activity_semuc_botton)
         //Declaring
         val model = ActivityModelTourism("Semuc Champey","Where the river hides under the stones"," is a natural monument in the department of Alta Verapaz, Guatemala, near the Q'eqchi' Maya town of Lanquín. It consists of a natural 300 m limestone bridge, under which passes the Cahabón River. Atop the bridge is a series of stepped, turquoise pools, a popular swimming attraction. Although it can be difficult to get to, Semuc is becoming more and more popular with travelers.")

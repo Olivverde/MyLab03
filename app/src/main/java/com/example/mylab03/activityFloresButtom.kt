@@ -16,7 +16,7 @@ class activityFloresButton : AppCompatActivity() {
         setContentView(R.layout.activity_flores_buttom)
 
         //Data binding
-        val binding: ActivityCityButtonBinding =
+        val binding: ActivityFloresButtomBinding =
             DataBindingUtil.setContentView(this, R.layout.activity_flores_buttom)
         //Declaring
         val model = ActivityModelTourism("Flores Island","The most beautiful island in Peten"," Flores is the capital of the Petén Department, Guatemala's landlocked, northernmost department. The population is 13,700 (2003).\n" +
